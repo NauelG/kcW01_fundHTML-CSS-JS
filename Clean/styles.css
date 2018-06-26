@@ -1,0 +1,63 @@
+/* font-family: 'Lora', serif;
+font-family: 'Open Sans', sans-serif; */
+
+:root {
+    --color-texto: rgb(0, 0, 0);
+    --color-fondo: rgb(255, 255, 255);
+}
+
+body {
+    background-color: bisque;
+    color: var(--color-texto);
+    background-color: var(--color-fondo);
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* .h1-main {
+    font-size: 1.25rem;
+}
+
+.h1-section {
+    font-size: 5rem;
+}
+
+.h1-section-post {
+    font-size: 3.5rem;
+} */
+
+body>header h1 {
+    font-size: 1.25rem;
+}
+
+section h1 {
+    font-size: 5rem;
+}
+
+section#full_post h1 {
+    font-size: 3.5rem;
+}
+
+blockquote {
+    quotes: '\00AB' '\00BB' '\201E' '\201C';
+}
+
+blockquote::before {
+    content: open-quote;
+}
+
+blockquote::after {
+    content: close-quote;
+}
+
+article p:nth-of-type(1) {
+    font-size: 1.1rem;
+}
+
+section h1 {
+    margin: 0;
+}
+
+article p {
+    font-family: 'Lora', serif;
+}
