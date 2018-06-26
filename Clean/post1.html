@@ -8,6 +8,8 @@
     <meta name="description" content="Sitio Web del primer módulo de Fundamentos de HTML, CSS y JS">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Open+Sans:400,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+    <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./styles.css">
     <title>Clean Blog Post</title>
 </head>
@@ -32,7 +34,7 @@
                 Posted by Start Bootstrap on August 24, 2018
             </footer>
         </header>
-        <article>
+        <article class="content-wrapper">
             <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because
                 every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
             <p>Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.</p>
@@ -59,9 +61,30 @@
     <footer>
         <nav>
             <ul>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">GitHub</a></li>
+                <li>
+                    <a href="#" title="Twitter">
+                        <span class="fa-stack fa-x2">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="Facebook">
+                        <span class="fa-stack fa-x2">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                                </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="GitHub">
+                        <span class="fa-stack fa-x2">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                    </a>
+                </li>
             </ul>
         </nav>
         <p><small>Copyright Your Website 2018</small></p>
